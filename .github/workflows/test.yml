@@ -13,7 +13,7 @@ on:
     name: Configure AWS credentials
     id: creds
     with:
-    aws-access-key-id: 942485688612 
+    aws-access-key-id: ${{ secrets.WS_ACCESS_KEY_ID}}
     aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     aws-region: Ohio
         
